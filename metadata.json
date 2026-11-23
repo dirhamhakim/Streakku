@@ -1,0 +1,6 @@
+{
+  "name": "Streakku",
+  "description": "Pencatat streak harian offline untuk melacak kebiasaan, kalender, riwayat, dan pengingat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

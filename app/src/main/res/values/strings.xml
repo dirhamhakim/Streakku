@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Streakku</string>
+
+    <!-- Navigasi -->
+    <string name="nav_today">Hari Ini</string>
+    <string name="nav_calendar">Kalender</string>
+    <string name="nav_history">Riwayat</string>
+    <string name="cd_open_settings">Buka pengaturan</string>
+    <string name="cd_add_habit">Tambah kegiatan</string>
+    <string name="cd_navigate_back">Kembali</string>
+    <string name="cd_edit_habit">Ubah kegiatan</string>
+
+    <!-- Status -->
+    <string name="status_done">Sudah</string>
+    <string name="status_failed">Gagal</string>
+    <string name="status_empty">Belum diisi</string>
+    <string name="status_empty_short">Belum</string>
+    <string name="status_inactive">Hari libur</string>
+
+    <!-- Layar Hari Ini -->
+    <string name="today_summary_format">%1$d dari %2$d kegiatan selesai</string>
+    <string name="today_summary_none_scheduled">Tidak ada kegiatan terjadwal hari ini</string>
+    <string name="today_subtitle_all_done">Luar biasa, semua kegiatan selesai hari ini</string>
+    <string name="today_subtitle_in_progress">Sedikit lagi, tetap jaga streak-mu</string>
+    <string name="today_subtitle_start">Yuk mulai kegiatan pertamamu hari ini</string>
+    <string name="today_streak_label">Streak %1$d hari</string>
+    <string name="today_no_streak_label">Belum ada streak</string>
+    <string name="today_tap_hint">Ketuk untuk ganti: Belum → Sudah → Gagal</string>
+    <string name="today_empty_title">Belum ada kegiatan</string>
+    <string name="today_empty_subtitle">Tambahkan kegiatan pertamamu untuk mulai membangun kebiasaan dan mencatat streak harian.</string>
+    <string name="today_empty_cta">Tambah Kegiatan Pertama</string>
+    <string name="today_inactive_section">Tidak dijadwalkan hari ini</string>
+    <string name="today_archived_section">Diarsipkan (%1$d)</string>
+    <string name="streak_days_format">%1$d hari</string>
+
+    <!-- Layar Kalender -->
+    <string name="calendar_title">Kalender</string>
+    <string name="calendar_empty_title">Belum ada kegiatan</string>
+    <string name="calendar_empty_subtitle">Tambahkan kegiatan terlebih dahulu untuk melihat kalender dan statistik streak.</string>
+    <string name="calendar_today_action">Hari ini</string>
+    <string name="calendar_prev_month">Bulan sebelumnya</string>
+    <string name="calendar_next_month">Bulan berikutnya</string>
+    <string name="calendar_stat_current_streak">Streak saat ini</string>
+    <string name="calendar_stat_longest_streak">Streak terpanjang</string>
+    <string name="calendar_stat_total_done">Total berhasil</string>
+    <string name="calendar_stat_consistency">Konsistensi</string>
+    <string name="calendar_consistency_detail">30h: %1$s · Semua: %2$s</string>
+    <string name="calendar_sheet_title">Ubah Status</string>
+    <string name="calendar_lock_future">Tanggal masa depan tidak dapat diisi.</string>
+    <string name="calendar_lock_inactive">Hari ini di luar jadwal hari aktif kegiatan.</string>
+    <string name="calendar_lock_backfill">Terkunci oleh batas waktu input (%1$d hari ke belakang).</string>
+
+    <!-- Layar Riwayat -->
+    <string name="history_title">Riwayat</string>
+    <string name="history_filter_all">Semua</string>
+    <string name="history_subtitle_all">Semua kegiatan</string>
+    <string name="history_streaks_section">Streak terpanjang</string>
+    <string name="history_ongoing_badge">Berlangsung</string>
+    <string name="history_streaks_empty">Belum ada streak yang tercatat. Tandai kegiatan sebagai Sudah untuk memulai streak.</string>
+    <string name="history_logs_section">Log perubahan terbaru</string>
+    <string name="history_logs_empty">Belum ada riwayat perubahan.</string>
+    <string name="history_log_changed_to">Diubah menjadi %1$s</string>
+
+    <!-- Form Kegiatan -->
+    <string name="form_title_create">Kegiatan Baru</string>
+    <string name="form_title_edit">Ubah Kegiatan</string>
+    <string name="form_name_label">Nama kegiatan</string>
+    <string name="form_name_placeholder">Contoh: Sholat Dhuhur, Olahraga, Baca buku</string>
+    <string name="form_name_error_empty">Nama kegiatan wajib diisi</string>
+    <string name="form_color_label">Warna</string>
+    <string name="form_optional_rules_title">Aturan opsional</string>
+    <string name="form_auto_fail_title">Otomatis gagal</string>
+    <string name="form_auto_fail_desc">Tanggal lewat yang kosong jadi merah</string>
+    <string name="form_backfill_title">Batas waktu input</string>
+    <string name="form_backfill_unlimited_desc">Tanpa batas (bisa isi kapan saja)</string>
+    <string name="form_backfill_limited_desc">Maksimal %1$d hari ke belakang</string>
+    <string name="form_backfill_input_label">Jumlah hari ke belakang</string>
+    <string name="form_backfill_error">Masukkan angka bulat 0 atau lebih</string>
+    <string name="form_active_weekdays_title">Hari aktif</string>
+    <string name="form_active_weekdays_helper">Hari di luar pilihan tidak memutus streak</string>
+    <string name="form_active_weekdays_min_error">Pilih minimal 1 hari aktif.</string>
+    <string name="form_save_create">Simpan</string>
+    <string name="form_save_edit">Simpan</string>
+    <string name="form_archive">Arsipkan kegiatan</string>
+    <string name="form_unarchive">Aktifkan kembali</string>
+    <string name="form_delete">Hapus kegiatan</string>
+    <string name="form_delete_dialog_title">Hapus kegiatan ini?</string>
+    <string name="form_delete_dialog_message">Semua catatan dan riwayat streak untuk \"%1$s\" akan dihapus permanen.</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_confirm">Konfirmasi</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_ok">OK</string>
+
+    <!-- Pengaturan -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_section_appearance">Tampilan</string>
+    <string name="settings_theme_label">Tema aplikasi</string>
+    <string name="settings_theme_system">Ikuti sistem</string>
+    <string name="settings_theme_light">Terang</string>
+    <string name="settings_theme_dark">Gelap</string>
+    <string name="settings_section_reminder">Pengingat harian</string>
+    <string name="settings_reminder_toggle">Aktifkan pengingat harian</string>
+    <string name="settings_reminder_desc">Notifikasi hanya muncul jika masih ada kegiatan yang belum diisi hari ini.</string>
+    <string name="settings_reminder_time">Waktu pengingat</string>
+    <string name="settings_reminder_permission_denied">Izin notifikasi diperlukan untuk mengaktifkan pengingat harian.</string>
+    <string name="settings_section_backup">Cadangan data</string>
+    <string name="settings_export_title">Ekspor JSON</string>
+    <string name="settings_export_desc">Simpan seluruh kegiatan dan catatan ke file cadangan JSON.</string>
+    <string name="settings_import_title">Impor JSON</string>
+    <string name="settings_import_desc">Pulihkan atau gabungkan data dari file cadangan JSON.</string>
+    <string name="settings_import_dialog_title">Impor Cadangan Data?</string>
+    <string name="settings_import_dialog_message">Ditemukan %1$d kegiatan dan %2$d catatan. Data yang sudah ada akan digabungkan menggunakan pembaruan terbaru.</string>
+    <string name="settings_import_confirm">Impor Sekarang</string>
+
+    <!-- Notifikasi -->
+    <string name="notification_channel_name">Pengingat Harian</string>
+    <string name="notification_channel_desc">Pengingat harian untuk kegiatan Streakku yang belum diisi.</string>
+    <string name="notification_reminder_title">Pengingat Streakku</string>
+    <string name="notification_reminder_body">Ada %1$d kegiatan yang belum diisi hari ini</string>
+</resources>
